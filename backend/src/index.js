@@ -10,7 +10,7 @@ const server = http.Server(app);
 
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://elissandro:elissandro@oministack-k2so4.mongodb.net/week10?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://key',{
     useNewUrlParser: true,
     useUnifiedTopology:true,
 });
